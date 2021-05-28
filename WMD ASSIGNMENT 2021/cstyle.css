@@ -1,0 +1,442 @@
+.class-for-index {
+	margin: 0;
+	padding: 0;
+	font-family: Anivers;
+}
+.header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(lights.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+
+}	
+.nav-bar{
+	display: flex;
+	padding: 40px 120px;
+}
+.nav-logo img{
+    width: 140px;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+	 margin-left: 50px;
+	 display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+	display: inline-block;
+	padding: 8px 25px;
+	position: relative;
+}
+
+.nav-links .current{
+	color: dodgerblue;
+}
+
+.nav-links ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}	
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: orange;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.btn{
+	display: inline-block;
+	text-decoration: none;
+    padding: 10px 28px;
+	font-size: 13px;
+	margin: relative;
+	height: 19%;
+	width: 19%;
+	position: relative;
+    border: 1px solid white;
+	border-radius: 0%;
+    background: transparent;
+	cursor: pointer;
+}
+.btn:hover{
+	border: 1px solid orange;
+	background: orange;
+	transition: 1s;
+}
+.nav-links .btn{
+	float: right;
+}
+.banner-title{
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	margin: 5px 5px;
+	color: white;
+}
+.banner-title h1{
+    font-size: 50px;
+    margin-bottom: 23px;
+	text-align: center;
+}
+.banner-title h1 span{
+	margin: 10px 0 40px;
+	font-size: 50px;
+	text-align: center;
+    color: orange;
+}	
+.nav-bar .fa{
+	display: none;
+}
+
+@media(max-width: 700px){
+	
+	.banner-title{
+		margin: 80px 40px;
+	}
+	.banner-title h1{
+		font-size: 50px;
+	}
+	.nav-bar{
+	    padding: 10px 30px;	
+	}
+	.fa-bars{
+		position: absolute;
+		right: 20px;
+		top: 10px;
+	}
+	.nav-bar .fa{
+		display: block;
+		color: white;
+		margin: 10px 25px;
+		font-size: 22px;
+		cursor: pointer;	
+	}
+	.nav-links{
+		height: 100vh;
+		width: 200px;
+		background: black;
+		top: 0;
+		right: -200px;
+		position: absolute;
+		text-align: left;
+		z-index: 2;
+		transition: 0.5s;
+	}
+	
+	.nav-links ul a{
+		display: block;
+	}
+	.nav-links .btn{
+		float: none;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+}
+
+@media(max-width: 700px){
+	.banner-title h1{
+		font-size: 20px;
+	}
+	.banner-title h1 span{
+		font-size: 20px;
+	}
+	.nav-links ul li{
+		display: block;
+	}
+	.nav-links{
+		position: absolute;
+		background: dodgerblue;
+		height: 100vh;
+		width: 150px;
+		top: 0;
+		right: 0;
+		text-align: left;
+		z-index: 2;
+	}
+	.btn{
+		display: inline-block;
+	    text-decoration: none;
+        padding: 10px 28px;
+	    font-size: 13px;
+	    margin: relative;
+	    height: 19%;
+	    width: 50%;
+	    position: relative;
+        border: 1px solid white;
+	    border-radius: 0%;
+        background: transparent;
+	    cursor: pointer;
+	}
+}
+
+/*--------contacts-----*/
+
+.contacts{
+	width: 95%;
+	margin: auto;
+	text-align: left;
+	padding-top: 0px;
+}
+.fifth-header{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(contact3.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	
+ }
+
+ .fifth-header h1{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+ }
+
+ .fifth-header button{
+		display: inline-block;
+	    text-decoration: none;
+        padding: 6px 20px;
+	    font-size: 13px;
+	    margin: relative;
+	    height: 19%;
+	    width: 19%;
+	    position: relative;
+        border: 1px solid white;
+	    border-radius: 0%;
+        background: transparent;
+	    cursor: pointer;
+		margin-bottom: 250px;
+ }
+
+ .fifth-header button:hover{
+	border: 1px solid orange;
+	background: orange;
+	transition: 1s;
+ }
+ .nav-links ul{
+	 margin-left: 50px;
+	 display: inline;
+	 margin-right: 210px;
+}
+
+
+.class-for-contacts {
+	margin: 0;
+	padding: 0;
+}
+.class-for-contacts{
+	background: white;
+	font-size: 17.5px;
+}	
+.container{
+	width: 55%;
+	margin: 60px auto;
+}
+.contact-box{
+	background: white;
+	display: flex;
+}
+.contact-left{
+	flex-basis: 40%;
+	padding: 40px 60px;
+	background: dodgerblue;
+	border-radius: 30px 0px 0px 30px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+	background: orange;
+    color: white;
+	border-radius: 0px 30px 30px 0px;
+}
+h1{
+	margin-bottom: 5px;
+	text-align: center;
+}
+.container p{
+	margin-bottom: 40px;
+	margin-left: -250px;
+}
+.input-row{
+	display: block;
+	width: 20px;
+	margin-bottom: 20px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid gray;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: white;
+}
+button{
+	color: white;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 6px 20px;
+	font-size: 13px;
+	margin: relative;
+	height: 20%;
+	width: 40%;
+	position: relative;
+	border: 1px solid white;
+	border-radius: 0%;
+	background: transparent;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+button:hover{
+	border: 1px solid orange;
+	background: orange;
+	transition: 1s;
+}
+
+.contact-left h3{
+	color: white;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.contact-right h3{
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+tr td:first-child{
+	padding-right: 20px;
+}
+ tr td{
+	 padding-top: 20px;
+ }
+ 
+ @media(max-width: 700px){
+	
+	.nav-links{
+		position: absolute;
+		background: dodgerblue;
+		height: 50vh;
+		width: 150px;
+		top: 0;
+		right: 0;
+		text-align: left;
+		z-index: 2;
+		box-sizing: border-box;
+	}
+	.fifth-header h1{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	
+	.fifth-header button{
+		width: 50%;
+		margin-top: -25px;
+		margin-bottom: 280px;
+		padding: 10px 28px;
+	    font-size: 13px;
+    }
+	
+	button{
+	color: white;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 6px 20px;
+	font-size: 13px;
+	margin: relative;
+	height: 20%;
+	width: 100%;
+	position: relative;
+	border: 1px solid white;
+	border-radius: 0%;
+	background: transparent;
+	cursor: pointer;
+	margin-bottom: 50px;
+    }
+    
+    
+    tr td:first-child{
+	  padding-right: 10px;
+    }	
+	.contact-right{
+     flex-basis: 40%;
+     padding: 20px;
+	 background: orange;
+     color: white;
+	 padding-left: 5px;
+	 font-size: 15px;
+    }
+    .contact-left{
+	 flex-basis: 40%;
+	 padding: 20px 40px;
+	 background: dodgerblue;
+	 padding-right: 100px;
+	 font-size: 15px;
+    }
+
+    .input-row{
+	display: block;
+	width: 100px;
+	margin-bottom: 20px;
+    }
+
+    .container{
+	width: 100%;
+    }
+    .container h1{
+		text-align: center;
+	}
+    
+	 .container p{
+		 text-align: center;
+		 margin-left: 2px;
+	 }
+
+
+}
+
+/*--------footer-----*/
+
+.footer{
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top:20px;
+	font-weight: 600;
+}
+
+.icons .fa{
+	color: dodgerblue;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o{
+	color: dodgerblue;
+}

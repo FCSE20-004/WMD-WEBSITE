@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" 
+ <head>
+    <meta charset="utf-8">
+	<title>CONTACT US FORM- BAFELETSE PRECIOUS</title>
+	<link rel="stylesheet" href="cstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="class-for-index">
+  
+  <section class="fifth-header">
+	
+	<div class="nav-bar">
+	   
+		<div class="nav-logo">
+		    <img src="Logo2.png">
+	    </div>
+
+        <div class="nav-links" id="nav-links">
+			 <i class="fa fa-close" onclick="closeMenu()"></i>	
+
+		<ul>
+		    <a href="index.html"><li>HOME</li></a>
+			<a href="aboutnyc.html"><li>ABOUT NYC</li></a>
+			<a href="lifestyle.html"><li>LIFESTYLE</li></a>
+			<a href="events.html"><li>EVENTS</li></a>
+			<a class="current" href="contacts.html"><li>CONTACTS</li></a>
+		</ul>
+ 
+	 
+	 </div>
+	 <i class="fa fa-bars" onclick="showMenu()"></i>	
+	 </div>
+	 
+	 <div class="banner-title">
+	    <h1>Contact Us</h1><br>
+		<a href="connectwithus.html"><button type="button" class="btn">CONNECT WITH US</button></a>
+	</div>
+  
+  </section>
+
+<section class="class-for-contacts">
+        <div class="container">
+	    
+        <p>We appreciate you for having reached out to us.<br></br>Please do not hesitate to leave us a message which we will respond to as soon as we can.</p>
+		
+		<div class="contact-box">
+		    <div class="contact-left">
+			    <h3>Send Your Request</h3>
+				<form>
+				   
+				   <div class="input-row">
+				       <div class="input-group">
+					       <label>Name</label>
+						   <input type="text" placeholder="Bafeletse Setambule" required>
+					   </div>
+					   <br><div class="input-group">
+					       <label>Phone</label>
+						   <input type="text" placeholder="+267 74996403" required>
+					   </div>
+					   <br><div class="input-group">
+					       <label>Email</label>
+						   <input type="email" placeholder="someone@example.com" required>
+					   </div>
+				       <br><div class="input-group">
+					       <label>Comment</label>
+						   <input type="text" placeholder="Please type here" required>
+					   </div>
+				    
+					</div>
+					
+					<label>Message</label>
+					<textarea rows="5" placeholder="Your message"></textarea>
+				
+				    <button type="submit">SEND</button>
+				   </form>
+			</div>
+			<div class="contact-right">
+			    <h3>Reach Us</h3>
+				
+				<table>
+				<tr>
+				    <td>Email</td>
+					<td>bsetambule@gmail.com</td>
+				</tr>
+				<tr>
+				    <td>Phone</td>
+					<td>+267 74996403</td>
+				</tr>
+				<tr>
+				    <td>Address</td>
+					<td>PO Box 11643 Tatitown<br>Francistown,Botswana</td>
+				</tr>
+				
+				</table>
+			
+			</div>
+        </div>		
+	</div>	
+	
+
+	
+	<!--------footer----->
+
+<section class="footer">
+   <h4>About Nyc</h4>
+   <p><i class="fa fa-copyright"></i> All Rights Reserved By Bafeletse Precious</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-whatsapp"></i>
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> by Bafeletse Precious</p>
+</section>
+	
+</section>	
+</body>
+</html>
+
+
+
+<!-----------JavaScript for Toggle Menu-------->
+    <script>
+	    var show = document.getElementById("nav-links");
+         function showMenu(){
+		    show.style.right = "0";
+		 
+		 }
+		  function closeMenu(){
+		    show.style.right = "-200px";
+		 }
+    </script>	  
+

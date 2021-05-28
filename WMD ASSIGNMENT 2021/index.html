@@ -1,0 +1,88 @@
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>NYC Website Homepage - Bafeletse Precious</title>
+	 <link rel="stylesheet" href="mystyle.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="class-for-index">
+  
+  <section class="header">
+	
+	<div class="nav-bar">
+	    
+		<div class="nav-logo">
+		    <img src="Logo2.png">
+	    </div>
+
+        <div class="nav-links" id="nav-links">
+			 <i class="fa fa-close" onclick="closeMenu()"></i>	
+
+		<ul>
+		    <a class="current" href="index.html"><li>HOME</li></a>
+			<a href="aboutnyc.html"><li>ABOUT NYC</li></a>
+			<a href="lifestyle.html"><li>LIFESTYLE</li></a>
+			<a href="events.html"><li>EVENTS</li></a>
+			<a href="contacts.html"><li>CONTACTS</li></a>
+		</ul>
+
+	 </div>
+	 <i class="fa fa-bars" onclick="showMenu()"></i>	
+	 </div>
+	 
+	 <div class="banner-title">
+	    <h1>Welcome to <span>New York City."If it doesn't shine bright </span>then it ain't a delight"</h1><br>
+		</br><a href="connectwithus.html"><button type="button" class="btn">CONNECT WITH US</button></a>
+	</div>
+ 
+  </section>
+  
+  
+<!--------footer----->
+
+<section class="footer">
+   <h4>About Nyc</h4>
+   <p><i class="fa fa-copyright"></i> All Rights Reserved By Bafeletse Precious</p>
+
+   <div class="icons">
+   <i class="fa fa-facebook"></i>
+   <i class="fa fa-twitter"></i>
+   <i class="fa fa-instagram"></i>
+   <i class="fa fa-whatsapp"></i>
+   </div>
+
+   <p>Made with <i class="fa fa-heart-o"></i> by Bafeletse Precious</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-----------JavaScript for Toggle Menu-------->
+    <script>
+	    var show = document.getElementById("nav-links");
+         function showMenu(){
+		    show.style.right = "0";
+		 
+		 }
+		  function closeMenu(){
+		    show.style.right = "-200px";
+		 }
+    </script>	  
+</body>
+</html>	 

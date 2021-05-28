@@ -1,0 +1,133 @@
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>NYC Website Connect with us page - Bafeletse Precious</title>
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="class-for-index">
+  
+  <section class="fifth-header">
+	
+	<div class="nav-bar">
+	   
+		<div class="nav-logo">
+		    <img src="Logo2.png">
+	    </div>
+
+        <div class="nav-links" id="nav-links">
+			 <i class="fa fa-close" onclick="closeMenu()"></i>	
+
+		<ul>
+		    <a href="index.html"><li>HOME</li></a>
+			<a href="aboutnyc.html"><li>ABOUT NYC</li></a>
+			<a href="lifestyle.html"><li>LIFESTYLE</li></a>
+			<a href="events.html"><li>EVENTS</li></a>
+			<a href="contacts.html"><li>CONTACTS</li></a>
+		</ul>
+ 
+	 
+	 </div>
+	 <i class="fa fa-bars" onclick="showMenu()"></i>	
+	 </div>
+	 
+	 <div class="banner-title">
+	    <h1>Connect with us</h1><br>
+		<a href="connectwithus.html"><button type="button" class="btn">CONNECT WITH US</button></a>
+	</div>  
+  </section>
+  
+  <section class="connectwithus">
+  <h3>PLEASE SUBSCRIBE TO OUR NEWSLETTER</h3>
+  
+  <p>Please enter your details in the form below to receieve the latest updates from us.</p>
+  
+  <br></br>
+  <form action="thankyou.html">
+  
+  <div class="note">
+		 <i class="fa fa-user icon"></i>
+        <input type="text" placeholder="Full Names" name="name" required>  
+  </div>	
+	
+	 <div class="note">
+		 <i class="fa fa-globe icon"></i>
+	     <input type="text" placeholder="Country of Residence" name="country" required>
+	 </div>    
+		 
+	 <div class="note">
+		 <i class="fa fa-map-marker icon"></i>
+	     <input type="text" placeholder="Region of Residence" name="region" required>
+     </div>	 
+	 
+	<div class="note">
+		 <i class="fa fa-envelope icon"></i>
+	     <input type="text" placeholder="someone@example.com" name="email" required>
+    </div>
+
+   <label>
+      <input type="checkbox" unchecked="unchecked" name="subscribe">Daily Newsletter
+   </label>
+   <label>
+      <input type="checkbox" unchecked="unchecked" name="subscribe">Monthly Newsletter
+   </label>
+   
+   
+   <div class="note">
+       <button type="submit">SUBSCRIBE</button></a>
+	</div>
+
+    </form>	
+  
+  </section>
+
+
+
+<!--------footer----->
+
+<section class="footer">
+
+   <h4>About Nyc</h4>
+   <p><i class="fa fa-copyright"></i> All Rights Reserved By Bafeletse Precious</p>
+
+   <div class="icons">
+     <i class="fa fa-facebook"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-whatsapp"></i>
+   </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Bafeletse Precious</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-----------JavaScript for Toggle Menu-------->
+    <script>
+	    var show = document.getElementById("nav-links");
+         function showMenu(){
+		    show.style.right = "0";
+		 
+		 }
+		  function closeMenu(){
+		    show.style.right = "-200px";
+		 }
+    </script>	  
+</body>
+</html>	 
