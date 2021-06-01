@@ -104,6 +104,11 @@
 
 @media(max-width: 700px){
 	
+	
+	.nav-links .current{
+	   color: black;
+}
+	
 	.banner-title{
 		margin: 80px 40px;
 	}
@@ -697,6 +702,12 @@
 }
 
 @media(max-width: 700px){
+	
+	.fifth-header button{
+		color: black;
+		font-weight: 700;
+	}
+	
 	.nav-links{
 		position: absolute;
 		background: dodgerblue;

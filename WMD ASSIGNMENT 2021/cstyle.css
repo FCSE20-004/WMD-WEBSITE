@@ -332,6 +332,10 @@ tr td:first-child{
  
  @media(max-width: 700px){
 	
+   .nav-links .current{
+	   color: black;
+}
+	
 	.nav-links{
 		position: absolute;
 		background: dodgerblue;
